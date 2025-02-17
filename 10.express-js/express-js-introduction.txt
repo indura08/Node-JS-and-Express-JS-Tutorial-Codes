@@ -1,0 +1,41 @@
+
+Express.js, often simply referred to as Express, is a fast, minimalist, and flexible web application framework for Node.js. It provides a robust set of features for building web and mobile applications and APIs with Node.js, making it one of the most popular choices among developers for creating server-side applications.
+
+features
+
+1.Routing: Express.js provides a powerful routing system that allows developers to define routes for handling different HTTP requests (e.g., GET, POST, PUT, DELETE) and URL patterns. Routes are defined using HTTP methods and URL patterns, making it easy to create RESTful APIs and define application endpoints.
+
+2.Middleware: Middleware functions in Express.js are functions that have access to the request and response objects (req, res) and the next middleware function in the application's request-response cycle. Middleware functions can perform tasks such as parsing request bodies, logging requests, handling authentication, and error handling. Express.js allows developers to use built-in middleware or create custom middleware for specific application needs.
+
+3.Template Engines: Express.js supports various template engines (such as EJS, Pug, Handlebars) for generating dynamic HTML content on the server side. Template engines allow developers to render HTML dynamically based on data provided by the server or passed from the client.
+
+4.Static File Serving: Express.js provides built-in middleware for serving static files (such as HTML, CSS, JavaScript, images) from a directory. This makes it easy to serve static assets like web pages, stylesheets, and client-side JavaScript files without needing additional configuration.
+
+
+
+express js http methods
+-----------------------
+
+1.GET = read data
+2.POST = Insert data
+3.PUT = update data
+4.DELETE = delete data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

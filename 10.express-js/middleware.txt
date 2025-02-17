@@ -1,0 +1,42 @@
+introduction
+------------
+
+In Express.js, middleware functions are functions that have access to the request (req) and response (res) objects of an HTTP request-response cycle. Middleware functions can execute any code, make changes to the request and response objects, end the request-response cycle, or call the next middleware function in the stack.
+
+	important:
+		req => middleware => res
+
+in other words we ccan say middleware are functions that execute during a request to the server. middlewares are everywhere in express js.
+
+Middleware functions can be used to perform a wide range of tasks, such as:
+
+	1.Logging: Logging information about incoming requests, such as request method, URL, headers, and query parameters.
+
+	2.Authentication and Authorization: Verifying user authentication, checking permissions, and protecting routes that require authentication.
+
+	3.Data Parsing: Parsing request body data, such as JSON, URL-encoded, or multipart data.
+
+	4.Error Handling: Handling errors that occur during request processing and returning appropriate error responses to clients.
+
+	5.Request Validation: Validating incoming request data, such as query parameters, request body, or headers.
+
+	6.CORS (Cross-Origin Resource Sharing): Enabling CORS to allow cross-origin requests from web browsers.
+
+
+important
+----------
+
+1.middleware ekakin passe next() function eka invoke kale nattnm server eka lod weqi thibila hemma error ekak nwa e hinda next() function eka hama welwma aniwaryenma invoke wela thiynnaka one
+
+2.app.use() method ekn app.get() eka athule logger eke nama didi natnwata wad app.use() eken puluwan hama app.get ekktma middleware eka athulwath krnna. e wagema thami mathk thiygnna one app.use() ekat passe liyna app.get ewat withri middleware eka watenne , samnyen eta udin liyna app.get ewat adla wenne nha nattnm app.use() eka
+
+3.mddleware options 3 k thiynwa
+
+	1.our own
+	2.express provides middlewares
+	3.third party -third party middleware api install krla thiygnnaone example thami9 morgan npm -eka intall krnwa nm npm install morgan kiyla type krla puluwan 			install krgnna. me sambndawa example ekk 6:41:00 di krnwa video ekedi
+
+
+
+middleware documentation ekat adlal link eka : https://expressjs.com/en/4x/api.html#express.urlencoded
+

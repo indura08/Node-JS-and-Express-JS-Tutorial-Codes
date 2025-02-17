@@ -1,0 +1,11 @@
+first we have to create a package.json file for that we have to type this command
+
+*npm init -y
+
+then we can install express
+
+*npm install express
+
+then we have to install nodemon to use npm run dev command
+
+*npm install nodemon

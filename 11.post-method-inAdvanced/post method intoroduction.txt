@@ -1,0 +1,13 @@
+The HTTP POST method is one of the HTTP request methods used to submit data to the server. It is commonly used for creating resources on the server, submitting form data, or sending data to be processed or stored.
+
+Purpose: The HTTP POST method is used to submit data to the server to be processed or stored. Unlike the HTTP GET method, which retrieves data from the server, the POST method sends data to the server to create or modify resources.
+
+Request Body: Unlike the HTTP GET method, which sends data in the URL's query string, the POST method sends data in the request body. This allows for larger amounts of data to be sent and can include various types of data, such as form data, JSON, XML, or binary data.
+
+Usage: The HTTP POST method is commonly used for:
+
+	Submitting HTML forms: When a user submits a form on a web page, the form data is typically sent to the server using the POST method.
+
+	Creating or updating resources: When creating or updating resources on the server, such as adding a new user to a database or updating a user's profile, the 	data is sent to the server using the POST method.
+
+	Sending data to APIs: When interacting with web APIs, the POST method is often used to send data to the API for processing.

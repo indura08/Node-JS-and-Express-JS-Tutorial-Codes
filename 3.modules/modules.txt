@@ -1,0 +1,6 @@
+In Node.js, modules are a way to organize and encapsulate code. A module is a self-contained piece of code that can include variables, functions, and other constructs. Modules help in breaking down a large codebase into smaller, manageable parts, making the code more modular and maintainable. Node.js uses the CommonJS module system for managing dependencies and structuring code.
+
+
+EVERY FILE IS A MODULE (by default)
+modules = encapsulated code (only share minimum)
+

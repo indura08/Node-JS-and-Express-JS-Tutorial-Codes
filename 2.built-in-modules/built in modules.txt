@@ -1,0 +1,16 @@
+Node.js provides a set of built-in modules that offer various functionalities, allowing developers to perform common tasks without the need for external libraries. Here are some of the core built-in modules in Node.js:
+
+
+1.fs (File System): Provides methods for interacting with the file system, allowing you to read from and write to files, create directories, etc.
+
+2.http and https: Allow the creation of HTTP and HTTPS servers, making it possible to build web applications.
+
+3.path: Offers utilities for working with file and directory paths, handling path-related operations.
+
+4.os (Operating System): Provides information about the operating system, such as CPU architecture, free memory, and platform.
+
+5.util: Contains various utility functions, including formatting strings, inspecting objects, and handling asynchronous operations.
+
+6.events: Implements the EventEmitter class, enabling the creation of objects that emit events and register event listeners.
+
+me tika wena wenama igannuwa mn liyagtte os eka withri folder eke atte os eka withri e hinda

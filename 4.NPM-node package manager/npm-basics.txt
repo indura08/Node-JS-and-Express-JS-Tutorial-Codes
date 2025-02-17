@@ -1,0 +1,14 @@
+
+Node Package Manager, commonly abbreviated as npm, is the default package manager for Node.js. It is a command-line tool and an online repository of public and private packages/modules for JavaScript development. npm simplifies the process of managing and sharing JavaScript code by providing a centralized registry for packages and their dependencies.
+
+npm package ekak install krddi globaly eka isntall rknna puluwan e kiynne eka one projct ekaka  use krnna puluwan.
+
+	command -	npm install -g <packageName>
+
+
+to get the json file of our project
+
+	command -  npm init
+	
+	json file eke ape project ekat adalawa okkoma details thiynwa json format eken
+

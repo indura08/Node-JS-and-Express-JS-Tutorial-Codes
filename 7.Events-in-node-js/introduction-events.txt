@@ -1,0 +1,50 @@
+events
+-------
+
+In Node.js, events are a fundamental concept used for asynchronous communication between objects. The EventEmitter class in the Node.js core provides a way to create and handle events. Here's a breakdown of events in Node.js:
+
+example for event : 	user clicking a button, and, we have to handle that
+			user hovers over a link, we have to handle that
+
+
+
+
+EventEmitter:
+--------------
+
+The EventEmitter class is a core module in Node.js that provides an implementation of the observer pattern. It allows objects to subscribe to events and be notified when those events occur.
+
+
+Events:
+-------
+An event is a signal that indicates that something has happened. It can be almost anything, such as a user action, a file read/write operation, a network request, or a timer expiring.
+
+
+EventEmitter Methods:
+---------------------
+
+The EventEmitter class provides methods for working with events:
+	1.on(event, listener): Adds a listener function to the specified event.
+
+	2.emit(event, [args]): Emits an event, triggering all listeners attached to that event with optional arguments.
+
+	3.once(event, listener): Adds a one-time listener function that is automatically removed after it is called.
+
+	4.removeListener(event, listener): Removes a listener function from the specified event.
+
+	5.removeAllListeners([event]): Removes all listeners from the specified event or from all events if no event is provided.
+		and more...
+
+in here listener means that a function that is executed in response to a specific event being triggered. Listeners are attached to events and are responsible for handling the event when it occurs.
+
+
+important
+----------
+
+event ekak emit krla thiyeddi eta passe liyna on method eke dewal run wenne nha e ehinda emit method ekn passe on methods liyalal wadk nha
+
+events are core building blocks of node
+
+
+
+

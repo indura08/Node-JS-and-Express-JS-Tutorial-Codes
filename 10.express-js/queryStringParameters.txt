@@ -1,0 +1,11 @@
+Query string parameters are a way to pass data to a web server as part of a URL. They are appended to the end of a URL after a question mark (?) and separated by ampersands (&). Query string parameters consist of key-value pairs, where each key is associated with a value.
+
+example : http://example.com/search?q=apple&category=fruits&page=1
+
+? sign
+------
+
+In Node.js with Express.js, the question mark ? in the context of query string parameters denotes the start of the query string portion of a URL. Query strings are a way to pass data to the server as part of a URL. They consist of key-value pairs separated by an ampersand &, with each key-value pair separated by an equals sign =.
+
+example: http://example.com/path/to/resource?key1=value1&key2=value2
+

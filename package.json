@@ -1,0 +1,20 @@
+{
+  "name": "js-tutorial",
+  "version": "1.0.0",
+  "main": "firstNode.js",
+  "scripts": {
+    "start": "",
+    "dev": "nodemon 15CurdAppWithMongoDb/indexWithControllersAndRoutes.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.0"
+  }
+}

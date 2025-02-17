@@ -1,0 +1,38 @@
+what is an API
+---------------
+
+An API, or Application Programming Interface, is a set of rules, protocols, and tools that allows different software applications to communicate and interact with each other. It defines the methods and data formats that applications can use to request and exchange information.
+
+APIs enable developers to access the functionality or data of another application or service without needing to understand its internal workings. This allows for seamless integration between different systems, enabling them to work together efficiently.
+
+APIs can be found in various contexts, including web APIs that allow web-based applications to communicate with servers, operating system APIs that enable applications to interact with the underlying operating system, and library APIs that provide access to specific functions or features within a programming language or framework.
+
+
+what is SSR (server side rendering)
+-----------------------------------
+
+Server-Side Rendering (SSR) refers to the process of generating the initial HTML for a web page on the server, sending it to the client's browser, and then allowing the client-side JavaScript to take over for subsequent interactions.
+
+In traditional client-side rendering (CSR), the browser downloads a minimal HTML file and then executes JavaScript code to render the content dynamically. However, with SSR, the server processes the request, generates the complete HTML for the requested page, including its content and structure, and sends it to the client.
+
+in simple terms
+
+SSR (Server-Side Rendering):
+
+SSR refers to the process of generating the initial HTML for a web page on the server and sending it to the client's browser.
+
+SSR is primarily used to improve performance and search engine optimization by delivering pre-rendered HTML content to the client.
+
+SSR is commonly employed in web development frameworks and libraries to render static or dynamic web pages on the server before sending them to the client's browser.
+
+SSR is often used in combination with client-side JavaScript to provide interactive features and dynamic content after the initial page load.
+
+
+
+
+
+
+
+
+
+

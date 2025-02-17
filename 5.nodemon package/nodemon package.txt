@@ -1,0 +1,25 @@
+nodemon is a utility tool for Node.js that helps developers in the development process by automatically restarting the Node.js application when file changes in the directory are detected. It is particularly useful during development because it eliminates the need for manual restarting of the server every time a change is made to the codebase.
+
+how nodemon works:
+
+1.Automatic restarting: mekdi apita terminal eke hama welama  node app.js kiyla typekra kra natanna on nha , json file eke thiynwa script kiyl thiyna key eke node app.js kiyla value eka dunnma terminal eke npm start kiyl withrk ghuwam athi app.js run wenwa. 
+
+2.development workflow
+
+
+important
+-----------
+node install krnna hariytm dev dependency widiyt use krna code eka: mpn install nodemon -D
+
+"scripts": {
+    "start": "node built-in-modules/http.js",
+    "dev": "nodemon built-in-modules/os.js"
+  },
+
+menna me code kalla thiynne json eke . meke me dev: nodemon built-in-modules/os.js eken wenne apita eka run krna puluwan sare sare terminal eke npm start kiyla type nokr. mokak hari change ekk krla svae krpu gmn automa run wenwa meka hinda.
+
+ehma krnna kalin mehm commaned eka ghnna one
+
+	command -	npm run dev
+
+control + c ghuwam me ka terminate wenwa

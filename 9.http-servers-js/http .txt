@@ -1,0 +1,21 @@
+
+In the context of Node.js, a server refers to a computer program or software application that listens for incoming network requests and responds to them according to predefined rules or logic. Servers are a fundamental component of client-server architecture, where clients (such as web browsers or mobile apps) communicate with servers over a network (such as the internet) to request and receive data or services.
+
+
+In Node.js, when using the http.createServer() function to create a web server, the function accepts a callback function that gets executed whenever an HTTP request is made to the server. This callback function typically takes two arguments: req and res. Here's what they represent:
+
+	1.req (Request):
+
+		req represents the HTTP request that the server receives from the client. It is an object that contains information about the incoming 			request, such 	as the request method (e.g., GET, POST), URL, headers, query parameters, request body (for POST requests), and more.
+		Developers can access various properties and methods of the req object to extract information about the client's request and use it to process 		and respond to the request appropriately.
+
+
+
+	2.res (Response):
+
+		res represents the HTTP response that the server sends back to the client in response to the request. It is an object that allows developers 		to construct and send an HTTP response to the client.
+		Developers can use methods and properties of the res object to set response headers, specify the HTTP status code (e.g., 200 for success, 404 		for not found), send a response body (e.g., HTML content, JSON data), and more.
+		Once the response is constructed, developers typically call the res.end() method to indicate that the response has been completed and should 		be sent back to the client.
+
+
+hama welema res.end kiyna eka liyawennama one mokda eken thami server eki browser eki athara hariyt conncetion ekak hadenwa wage scn ekk yanne.

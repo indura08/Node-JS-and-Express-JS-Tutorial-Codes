@@ -1,0 +1,3 @@
+In Node.js, util.promisify() is a utility function provided by the built-in util module. It is used to convert callback-based functions into equivalent Promise-based functions, allowing you to work with asynchronous code using Promises instead of traditional callback functions.
+
+example: Suppose you have a function readFile that reads a file using a callback. You can convert it to a Promise-based function using util.promisify(). Then, you can use it with async/await or .then() syntax, making your code cleaner and more readable.

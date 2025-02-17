@@ -1,0 +1,7 @@
+
+In Node.js and Express.js, the PUT method is used to update existing resources or entities in a RESTful API. It is typically used when you want to modify the properties of an existing resource without replacing it entirely.
+
+meke code tika thiynawa 1`1-post method in advanced folder eka athule thiyna code eke
+
+
+

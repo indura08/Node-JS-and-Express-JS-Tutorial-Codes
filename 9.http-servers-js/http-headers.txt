@@ -1,0 +1,21 @@
+res.writeHead method
+----------------------
+
+The res.writeHead() method in Node.js is used to write the HTTP response headers to the response stream. It allows you to set the status code, response headers, and other metadata for the HTTP response before sending the response body.
+
+syntax: res.writeHead(statusCode[, statusMessage][, headers])
+
+
+Parameters:
+
+	statusCode: A numeric HTTP status code (e.g., 200 for OK, 404 for Not Found, 500 for Internal Server Error).
+
+	statusMessage (optional): A human-readable status message corresponding to the status code. If omitted, a default status message is used.
+
+	headers (optional): 	An object containing additional HTTP headers to be set in the response. Each header is specified as a key-value pair in the 				object.
+
+
+res.write method
+------------------
+
+In Node.js, the res.write() method is used to write data to the HTTP response stream. It is typically called multiple times within a request handler function to send data incrementally to the client. This method allows developers to stream large amounts of data or chunked responses back to the client

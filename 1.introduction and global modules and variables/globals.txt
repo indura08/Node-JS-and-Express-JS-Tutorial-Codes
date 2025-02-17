@@ -1,0 +1,15 @@
+In Node.js, the term "globals" usually refers to objects and variables that are available globally throughout 
+the application, meaning they can be accessed from any module without the need for explicit import or 
+require statements. It's important to use globals judiciously, as overreliance on them can lead to code that is 
+harder to maintain and understand.
+
+some notable global objects
+
+__dirname = path to current directory
+__filename = file name
+
+require - unction to use modules
+module = info about curent module(file)
+process = info about env where the program is being executed
+
+

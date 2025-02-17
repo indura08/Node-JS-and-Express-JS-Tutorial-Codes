@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caramel&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Sevillana&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Sevillana&display=swap" rel="stylesheet">
+
+<link rel = "stylesheet" href = "order-now.css">
+<link rel = "stylesheet" href = "basic.css">
+
+    </head>
+
+    <body>
+
+        <div class = "header3">
+
+            <div class = middle-section3>
+                <p class = "p4">Order Now!</p>
+            </div>
+
+            <div class = left-section3>
+                <img src = "images/icon.png" class = "img3">
+                <p class = "p3">BAKERYHEAD+</p>
+            </div>
+
+            <div class = right-section3>
+                <ul>
+                    <li class = "li3"><a href = "file:///F:/website%20bakery+/main.html" target="_blank">Home Page</a></li>
+                    <li class = "li3"><a href = "file:///F:/website%20bakery+/shop.html" target="_blank">Shop Now!</a></li>
+                    <li class = "li3"><a href = "#">FAQs</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class = part3-form>
+            <form class = "form1" action = "process.php" method = "post"> 
+                <p class = "p5"><label for = "name">Your name : </label></p> <input type = "text" name = "your name" id = "name">
+
+                <p class = "p5"><label for = "city">Your city :</label> </p> <input type = "text" name = "city" id = "city">
+
+                <p class = "p5"><label for = "phone">Your phone number : </label></p> <input type = "text" name = "your name" id = "phone">
+
+                <p class = "p5"><label for = "address">Your address : </label></p> <input type = "text" name = "address" id = "address">
+
+                <p class = "p5"><label for = "code"> product code : </label></p> <input type = "text" name = "code" id = "product">
+
+                <p class = "p5">product name : </p> <input type = "text" name = "pname" id = "product_name">
+
+                <p class = "p5">Number of items you want? : </p> <input type = "number" name = "itemnum" id = "items">
+
+                <p class = "p5">How quick you want your order?  </p> 
+                <select class = "input1">
+                    <option value = "15mins">15 minutes</option>
+                    <option value = "20mins">20 minutes</option>
+                    <option value = "30mins">30s minutes</option>
+                    <option value = "within 1 hour">Within 1 hour</option>
+                    <option value = "Nextday">Next day</option>
+                </select>
+
+                <p class = "p5">Your paying method? : </p> 
+                <input type = "radio" id = "card1" value = "card" name = "pm" style = "margin-left: 70px;"> <font size = "4px">
+                    <label for = "card1">Card</label><br>
+                <input type = "radio" id = "cash1" value = "cash" name = "pm" style = "margin-left: 70px;;"> 
+                    <label for = "cash1">Cash on delivery.</label><br><br><br><br>
+
+               <center> <input type = "submit" name = "Submit" class = "button1">
+                <input type = "reset" name = "Reset" class = "button1"> </center>
+        </div>
+    </body>
+</html>

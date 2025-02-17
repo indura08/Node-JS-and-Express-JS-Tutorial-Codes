@@ -1,0 +1,48 @@
+In Node.js, streams are a fundamental concept used for reading from or writing to a continuous flow of data. They are an abstract interface implemented by various objects in Node.js, allowing you to work with data incrementally rather than loading it all into memory at once. Streams are particularly useful for handling large amounts of data or for processing data as it becomes available, making them essential for tasks like file I/O, network communication, and data processing.
+
+
+Types of Streams:
+-----------------
+
+Node.js provides several built-in stream types, including:
+
+	1.Readable: Streams from which data can be read, such as reading from files, HTTP requests, or standard input.
+
+	2.Writable: Streams to which data can be written, such as writing to files, HTTP responses, or standard output.
+
+	3.Duplex: Streams that are both readable and writable, allowing bidirectional data flow.
+
+	4.Transform: Duplex streams that transform the data as it is read from or written to, such as compression or encryption.
+
+
+me sambndawa example ekak thiynwa video eke : 3:35:00 wage pitipasst krla blnna
+
+why we need streams
+-------------------
+
+1.Efficiency:
+
+	Streams allow data to be processed in small, manageable chunks rather than loading the entire dataset into memory at once. This reduces memory usage 	and makes applications more efficient, particularly when dealing with large amounts of data.
+
+2.Performance:
+
+	By processing data incrementally, streams can improve the performance of applications, especially in I/O-bound tasks such as reading from or writing 	to files, network communication, or data processing.
+
+
+3.Scalability:
+
+	Streams enable applications to handle large volumes of data or concurrent connections efficiently, making them scalable and suitable for building 	high-performance systems.
+
+4.Real-time Processing:
+
+	Streams allow data to be processed as it becomes available, enabling real-time processing of data streams from sources like network sockets, HTTP 	requests, or log files.
+
+5.Backpressure Handling:
+
+	Streams provide built-in mechanisms for handling backpressure, which occurs when the rate at which data is produced exceeds the rate at which it can 	be consumed. By pausing or throttling data flow when necessary, streams prevent buffer overflows and ensure smooth data processing.
+
+
+
+
+
+

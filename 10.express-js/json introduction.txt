@@ -1,0 +1,20 @@
+json basics in express js
+--------------------------
+
+
+In Express.js, which is a web application framework for Node.js, JSON (JavaScript Object Notation) is commonly used for exchanging data between the server and the client.
+
+
+Params, Query String
+--------------------
+
+
+In Express.js, routes can handle incoming requests with parameters and query strings.
+
+1.Parameters:
+
+	Parameters are values embedded within the URL path. They are used to provide additional information to the server about the requested resource. In 	Express.js, parameters are defined in the route path using a colon (:) followed by the parameter name. Express extracts these parameters from the URL 	and makes them available in the req.params object.
+
+2.Query String:
+
+	Query strings are used to pass data to the server as key-value pairs appended to the end of a URL after a question mark (?). They are typically used 	for filtering, sorting, or paginating resources. Express.js parses the query string and makes it available in the req.query object.

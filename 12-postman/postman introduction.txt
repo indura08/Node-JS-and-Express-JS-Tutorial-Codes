@@ -1,0 +1,14 @@
+
+Postman is a popular API client tool that allows developers to design, test, and debug APIs more efficiently. It provides a user-friendly interface for sending HTTP requests to your API endpoints and inspecting the responses. While Postman itself is not directly related to Express.js, it can be used alongside Express.js during the development and testing of your APIs.
+
+post man use krnna puluwan widi
+
+	1.Testing Endpoints: Once you have defined your API endpoints in your Express.js application, you can use Postman to test them by sending various 	types of requests (e.g., GET, POST, PUT, DELETE) to your server.
+
+	2.Parameterized Requests: Postman allows you to easily send requests with query parameters, request headers, request bodies, and other parameters. 	This can be helpful for testing different scenarios and edge cases.
+
+	3.Response Inspection: After sending a request, Postman displays the response received from the server, allowing you to inspect the data, status 	codes, headers, and other details.
+
+	4.Collection and Environment: Postman allows you to organize your requests into collections and define environments, making it easier to manage and 	test different sets of endpoints under different conditions.
+
+	5.Automated Testing: Postman also provides features for writing and running automated tests on your API endpoints, allowing you to verify that your 	API behaves as expected under various conditions.

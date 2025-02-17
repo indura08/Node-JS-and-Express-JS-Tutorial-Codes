@@ -1,0 +1,15 @@
+
+
+In Node.js, the http module is a core module that provides functionality for creating HTTP servers and making HTTP requests. This module is essential for handling web-related tasks on both the server and client sides. Here are some key functionalities provided by the http module:
+
+01.Creating http requests
+
+02.handling http requests
+
+03.create an http cclient
+
+04.handling http requests
+
+05.handling http methods and routes
+
+06.important events
