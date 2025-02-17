@@ -2,7 +2,7 @@ const http = require("http")
 const server = http.createServer((req,res) => {
 
     const url = req.url //req ovject eke eka property(attribute) ekaka thamai url kiynne. meken url eka denwa site eke
-
+    console.log(req.url)
     if(url === "/"){
         console.log("user has hit the server")
         res.writeHead(200, {'content-type' : 'text/html'})
